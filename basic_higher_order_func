@@ -1,0 +1,6 @@
+def add(x,y,f):
+    return f(x) + f(y)
+
+if __name__ == '__main__':
+    # abs 取绝对值函数
+    print(add(-5, 9, abs))
